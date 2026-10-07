@@ -5,39 +5,49 @@ This repository contains solutions to LeetCode problems, organized by study plan
 
 
 <details>
-<summary>Leetcode75/Solutions</summary>
+<summary>main/java/Leetcode75/</summary>
 
 <blockquote>
 <details>
 <summary>Prefix_Sum/</summary>
 
 - `Largest_Altitude/`
-  - [`Problem.md`](LeetCode/main/java/Leetcode75/Prefix_Sum/Largest_Altitude/Problem.md)
-  - [`Solution.java`](LeetCode/main/java/Leetcode75/Prefix_Sum/Largest_Altitude/Solution.java)
+  - [`Problem.md`](main/java/Leetcode75/Prefix_Sum/Largest_Altitude/Problem.md)
+  - [`Solution.java`](main/java/Leetcode75/Prefix_Sum/Largest_Altitude/Solution.java)
 - `Find_Pivot_Index/`
-  - [`Problem.md`](LeetCode/main/java/Leetcode75/Prefix_Sum/Find_Pivot_Index/Problem.md)
-  - [`Solution.java`](LeetCode/main/java/Leetcode75/Prefix_Sum/Find_Pivot_Index/Solution.java)
+  - [`Problem.md`](main/java/Leetcode75/Prefix_Sum/Find_Pivot_Index/Problem.md)
+  - [`Solution.java`](main/java/Leetcode75/Prefix_Sum/Find_Pivot_Index/Solution.java)
 
 </details>
 </blockquote>
 </details>
 
-`LeetCode/test/java/`
-
 <details>
-<summary>Leetcode75/Tests</summary>
+<summary>test/java/Leetcode75/</summary>
 
 <blockquote>
 <details>
 <summary>Prefix_Sum/</summary>
 
-- [`Largest_AltitudeTest.java`](LeetCode/test/java/Leetcode75/Prefix_Sum/Largest_AltitudeTest.java)
-- [`Find_Pivot_IndexTest.java`](LeetCode/test/java/Leetcode75/Prefix_Sum/Find_Pivot_IndexTest.java)
+- [`Largest_AltitudeTest.java`](test/java/Leetcode75/Prefix_Sum/Largest_AltitudeTest.java)
+- [`Find_Pivot_IndexTest.java`](test/java/Leetcode75/Prefix_Sum/Find_Pivot_IndexTest.java)
 
 </details>
 </blockquote>
 </details>
 
-</details>
-
 Tests for unfinished solutions are disabled until their implementations are ready.
+
+## Running tests
+
+The Maven project is in the repository root. Run all tests with:
+
+```powershell
+mvn test
+```
+
+To run only the Largest Altitude tests:
+
+```powershell
+mvn "-Dtest=Largest_AltitudeTest" test
+```
