@@ -36,8 +36,6 @@ This repository contains solutions to LeetCode problems, organized by study plan
 </blockquote>
 </details>
 
-Tests for unfinished solutions are disabled until their implementations are ready.
-
 ## Running tests
 
 The Maven project is in the repository root. Run all tests with:
@@ -50,4 +48,10 @@ To run only the Largest Altitude tests:
 
 ```powershell
 mvn "-Dtest=Largest_AltitudeTest" test
+```
+
+To run only the Find Pivot Index tests:
+
+```powershell
+mvn "-Dtest=Find_Pivot_IndexTest" test
 ```
